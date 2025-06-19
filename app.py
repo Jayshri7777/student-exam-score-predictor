@@ -6,7 +6,7 @@ warnings.simplefilter("ignore")
 
 model = joblib.load("best_model.pkl")
 
-st.title("🧑‍💻Student Exam Score Predictor📊")
+st.title("Student Exam Score Predictor📊")
 
 study_hours = st.slider("Study Hours per Day🎯", 0.0, 12.0, 2.0)
 attendance = st.slider("Attendance Percentage⌛", 0.0, 100.0, 75.0)
